@@ -12,6 +12,7 @@ import { Home } from "./component/home.js";
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 
+// Declaracion de props y la funcion que la usara.
 const Counter = props => {
 	const [count, setCount] = useState(0);
 
