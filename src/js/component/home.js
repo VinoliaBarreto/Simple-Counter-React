@@ -14,9 +14,6 @@ export function Home() {
 					<i className="far fa-clock"></i>
 				</div>
 				<div className="col">
-					<Counter time={10000} />
-				</div>
-				<div className="col">
 					<Counter time={1000} />
 				</div>
 				<div className="col">
