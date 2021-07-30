@@ -1,5 +1,7 @@
+import React, { useEffect, useState } from "react";
 //import react into the bundle
 import ReactDOM from "react-dom";
+import PropTypes from "prop-types";
 
 //include bootstrap npm library into the bundle
 import "bootstrap";
@@ -9,8 +11,6 @@ import "../styles/index.scss";
 
 //import your own components
 import { Home } from "./component/home.js";
-import React, { useEffect, useState } from "react";
-import PropTypes from "prop-types";
 
 // Declaracion de props y la funcion que la usara.
 const Counter = props => {
